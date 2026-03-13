@@ -1,7 +1,5 @@
 ## Final Project – Frontend (React)
 
-This repository contains the **React frontend** for **YOUR PROJECT NAME**.
-
 ---
 
 ### 1. Technologies Used
