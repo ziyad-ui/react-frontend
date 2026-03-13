@@ -4,10 +4,10 @@
 
 ### 1. Technologies Used
 
-- React **X.X**
-- Node.js **X.X**
-- npm / yarn **X.X**
-- Build tool: **Vite / Create React App / Next.js (pick one)**
+- React **18.2.0**
+- Node.js **20.11.0**
+- npm **10.5.0**
+- Build tool: **Vite**
 - Other main libraries: **React Router, Axios, etc.**
 
 ---
@@ -16,7 +16,7 @@
 
 #### 2.1 Prerequisites
 
-- Node.js **X.X** or higher
+- Node.js **20.11.0** or higher
 - npm or yarn
 
 #### 2.2 Installation
@@ -28,3 +28,5 @@ cd react-frontend
 npm install
 npm run dev
 # or: npm start (if Create React App)
+
+“Fill in versions”
