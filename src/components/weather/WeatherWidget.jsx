@@ -39,7 +39,7 @@ const WeatherWidget = () => {
           type="text"
           value={location}
           onChange={(e) => setLocation(e.target.value)}
-          placeholder="Enter city name"
+          placeholder="Search city (e.g., Manila)"
         />
         <button className="secondary-button" type="submit" disabled={loading}>
           Search

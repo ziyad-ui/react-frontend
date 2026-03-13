@@ -4,8 +4,8 @@ import { login } from '../../services/api.js';
 import LoadingSpinner from '../common/LoadingSpinner.jsx';
 
 const Login = ({ onLogin }) => {
-  const [email, setEmail] = React.useState('admin@example.com');
-  const [password, setPassword] = React.useState('password');
+  const [email, setEmail] = React.useState('');
+  const [password, setPassword] = React.useState('');
   const [error, setError] = React.useState('');
   const [loading, setLoading] = React.useState(false);
   const navigate = useNavigate();
@@ -29,7 +29,7 @@ const Login = ({ onLogin }) => {
   return (
     <div className="auth-container">
       <form className="auth-card" onSubmit={handleSubmit} noValidate>
-        <h1 className="auth-title">IT15 Dashboard Login</h1>
+        <h1 className="auth-title">Sign in to your dashboard</h1>
         {error && <p className="auth-error">{error}</p>}
 
         <label className="auth-label">

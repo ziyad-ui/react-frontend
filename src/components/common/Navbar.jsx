@@ -5,7 +5,7 @@ const Navbar = ({ isAuthenticated, onLogout }) => {
   return (
     <header className="navbar">
       <div className="navbar-left">
-        <span className="navbar-brand">IT15 Dashboard</span>
+        <span className="navbar-brand">School Dashboard</span>
       </div>
       <nav className="navbar-right">
         {isAuthenticated ? (
