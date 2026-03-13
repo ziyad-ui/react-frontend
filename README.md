@@ -1,27 +1,32 @@
-# React Frontend Project
+## Final Project – Frontend (React)
 
-## Setup Instructions
+This repository contains the **React frontend** for **YOUR PROJECT NAME**.
 
-1. Install dependencies
+---
+
+### 1. Technologies Used
+
+- React **X.X**
+- Node.js **X.X**
+- npm / yarn **X.X**
+- Build tool: **Vite / Create React App / Next.js (pick one)**
+- Other main libraries: **React Router, Axios, etc.**
+
+---
+
+### 2. Getting Started (Local Setup)
+
+#### 2.1 Prerequisites
+
+- Node.js **X.X** or higher
+- npm or yarn
+
+#### 2.2 Installation
+
+```bash
+# from project root
+cd react-frontend
+
 npm install
-
-2. Run the development server
-npm start
-
-## Environment Variables
-
-Copy the example environment file:
-
-cp .env.example .env
-
-Then update the variables as needed.
-
-## Technologies Used
-
-- React
-- JavaScript
-- HTML
-- CSS
-- Axios
-
-
+npm run dev
+# or: npm start (if Create React App)
